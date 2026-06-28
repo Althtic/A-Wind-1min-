@@ -12,5 +12,7 @@ __pycache__/
 回测框架/outputs/
 
 # Optional raw data directory.
-# Remove this rule if you intentionally want to version the full dataset.
-c_bond_data_1217/
+# Keep only the tiny sample dataset under version control.
+c_bond_data_1217/*
+!c_bond_data_1217/2025-01-02/
+!c_bond_data_1217/2025-01-02/**

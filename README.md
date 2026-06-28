@@ -15,7 +15,13 @@ pip install -r requirements.txt
 
 ## 数据放置
 
-默认原始数据目录为：
+仓库自带一个微小样例数据集，可直接运行完整流程：
+
+```text
+c_bond_data_1217/2025-01-02/
+```
+
+如果你要使用自己的完整数据，默认原始数据目录为：
 
 ```text
 c_bond_data_1217/
@@ -36,7 +42,7 @@ c_bond_data_1217/
 
 ## 一键生成数据与信号
 
-从原始数据开始完整运行：
+从原始数据或内置样例数据开始完整运行：
 
 ```bash
 python3 run_data_and_signal_pipeline.py
@@ -118,6 +124,12 @@ Bond_Amount / (Bond_Volume * 10)
 - `performance_summary.json`：绩效摘要 JSON
 - `skipped_orders.csv`：未成交订单
 - `equity_curve.png`：净值曲线、日度回撤和关键指标图
+
+## 全数据回测示例图
+
+仓库中的 `docs/full_data_equity_curve.png` 是使用完整数据集生成的回测图，仅作为示例展示：
+
+![full data equity curve](docs/full_data_equity_curve.png)
 
 ## 项目结构
 
