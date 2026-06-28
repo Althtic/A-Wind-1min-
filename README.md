@@ -150,8 +150,3 @@ Bond_Amount / (Bond_Volume * 10)
     ├── backtest.py
     └── run_backtest.py
 ```
-
-## 注意
-
-- `c_bond_data_1217/`、中间 CSV 和回测输出默认在 `.gitignore` 中忽略，避免把大体量数据和生成结果提交到 GitHub。
-- 如果你希望 GitHub 仓库自带样例数据，可以单独准备一个小型 `sample_data/`，再在 README 中增加样例运行命令。
