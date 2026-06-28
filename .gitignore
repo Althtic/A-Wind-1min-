@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Generated pipeline outputs
+数据清洗与预处理/20*.csv
+数据清洗与预处理/concat_data.csv
+核心指标计算/clean_data.csv
+策略信号/calculate_ratio_data.csv
+策略信号/signal_buy_and_sell*.csv
+策略信号/signal_test.xlsx
+回测框架/outputs/
+
+# Optional raw data directory.
+# Remove this rule if you intentionally want to version the full dataset.
+c_bond_data_1217/
